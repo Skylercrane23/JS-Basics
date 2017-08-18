@@ -75,9 +75,11 @@ function myName(){
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
-var newMyName = myName();
+function newMyName(myName){
+  alert(newMyName);
+}
 //Now alert the result of invoking newMyName
-alert(newMyName);
+
 
 
 //////////////////PROBLEM 7////////////////////
